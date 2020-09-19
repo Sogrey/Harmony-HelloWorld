@@ -1,0 +1,52 @@
+{
+  "app": {
+    "bundleName": "top.sogrey.wearable_java",
+    "vendor": "sogrey",
+    "version": {
+      "code": 1,
+      "name": "1.0"
+    },
+    "apiVersion": {
+      "compatible": 3,
+      "target": 3
+    }
+  },
+  "deviceConfig": {},
+  "module": {
+    "package": "top.sogrey.wearable_java",
+    "name": ".wearable_java",
+    "reqCapabilities": [
+      "video_support"
+    ],
+    "deviceType": [
+      "wearable"
+    ],
+    "distro": {
+      "deliveryWithInstall": true,
+      "moduleName": "entry",
+      "moduleType": "entry"
+    },
+    "abilities": [
+      {
+        "skills": [
+          {
+            "entities": [
+              "entity.system.home"
+            ],
+            "actions": [
+              "action.system.home"
+            ]
+          }
+        ],
+        "orientation": "landscape",
+        "formEnabled": false,
+        "name": "top.sogrey.wearable_java.MainAbility",
+        "icon": "$media:icon",
+        "description": "$string:mainability_description",
+        "label": "wearable_java",
+        "type": "page",
+        "launchType": "standard"
+      }
+    ]
+  }
+}
