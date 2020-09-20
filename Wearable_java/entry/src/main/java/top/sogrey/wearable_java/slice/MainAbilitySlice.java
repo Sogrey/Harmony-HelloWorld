@@ -31,6 +31,7 @@ public class MainAbilitySlice extends AbilitySlice {
         text.setTextSize(50);
         text.setTextAlignment(TextAlignment.CENTER);
         myLayout.addComponent(text);
+
         super.setUIContent(myLayout);
     }
 
